@@ -1,0 +1,532 @@
+{
+  "main": {
+    "id": "93110c8e2d9fda21",
+    "type": "split",
+    "children": [
+      {
+        "id": "389f7356fd9303f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bdcd277056d5cc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture Note/defualt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "defualt"
+            }
+          },
+          {
+            "id": "56fe475cb97556b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Note/1.软件设计笔记：清洁架构 vs 普通架构.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.软件设计笔记：清洁架构 vs 普通架构"
+            }
+          },
+          {
+            "id": "73af34b0d20ca765",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quiz/WEEK1 JAVA QUIZ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WEEK1 JAVA QUIZ"
+            }
+          },
+          {
+            "id": "ff4e207d942fe6f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CleanArchitecture/Usercase里的接口：Boundary.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Usercase里的接口：Boundary"
+            }
+          },
+          {
+            "id": "0186b61a0b5438b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/为什么private 不能写在方法里.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "为什么private 不能写在方法里"
+            }
+          },
+          {
+            "id": "6d0daa2e7b36b4c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/public protected default private.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "public protected default private"
+            }
+          },
+          {
+            "id": "cf52f7112399ba18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quiz/WEEK4 JAVA QUIZ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WEEK4 JAVA QUIZ"
+            }
+          },
+          {
+            "id": "a6a108cbbdfab994",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture Note/Week 4 Lecture Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 4 Lecture Note"
+            }
+          },
+          {
+            "id": "9738df41a2aab7b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/JUnit 5 测试类与注解.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "JUnit 5 测试类与注解"
+            }
+          },
+          {
+            "id": "19529d8f7b156154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Note/5.LSP里氏替换原则（Liskov Substitution Principle）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.LSP里氏替换原则（Liskov Substitution Principle）"
+            }
+          },
+          {
+            "id": "3a32702eef65c148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture Note/Week 4 Lecture Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 4 Lecture Note"
+            }
+          },
+          {
+            "id": "67c104a49cf85b8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名"
+            }
+          },
+          {
+            "id": "5bac3e99a6b6c19e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Note/3.SRP单一职责原则 (The Single Responsibility Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.SRP单一职责原则 (The Single Responsibility Principle)"
+            }
+          },
+          {
+            "id": "b7fb1c5c5d01163d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Note/3.SRP单一职责原则 (The Single Responsibility Principle).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.SRP单一职责原则 (The Single Responsibility Principle)"
+            }
+          },
+          {
+            "id": "f306cc7f999ab9fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading Note/5.LSP里氏替换原则（Liskov Substitution Principle）.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5.LSP里氏替换原则（Liskov Substitution Principle）"
+            }
+          },
+          {
+            "id": "cb0558f675e921cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections Framework.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Collections Framework"
+            }
+          },
+          {
+            "id": "208bdcd882abdaba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          },
+          {
+            "id": "cf1ae35037081c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture Note/WEEK3 Lecture Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WEEK3 Lecture Note"
+            }
+          },
+          {
+            "id": "6af694a3b8d26e35",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "截屏2026-05-19 17.11.23.png"
+              },
+              "icon": "lucide-image",
+              "title": "截屏2026-05-19 17.11.23"
+            }
+          },
+          {
+            "id": "8b583af7458eb475",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/git checkout.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git checkout"
+            }
+          },
+          {
+            "id": "a3db6f176dd47519",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Git/git fetch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "git fetch"
+            }
+          },
+          {
+            "id": "c3b6dda09e73c628",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "为什么private 不能写在方法里.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "为什么private 不能写在方法里"
+            }
+          }
+        ],
+        "currentTab": 15
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5e4453d6591df03",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ff62cfbb707ab28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95fb67dd2ae020b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "26271bfef5d31e8f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "77a1bae849b9c7c6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 271.5
+  },
+  "right": {
+    "id": "d97c7c6f71f88f0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3bb944a9124547d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7dae27ba5c17914",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "未命名 的反向链接列表"
+            }
+          },
+          {
+            "id": "84dce7dc90579145",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Week 1 Lecture Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Week 1 Lecture Notes 的出链列表"
+            }
+          },
+          {
+            "id": "27974ef7096d4add",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "440675ca272af141",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9a3b8ef53ee7802c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Week 1 Lecture Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Week 1 Lecture Notes 的大纲"
+            }
+          },
+          {
+            "id": "5d09d4cadc97803c",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "未命名.canvas"
+              },
+              "icon": "lucide-info",
+              "title": "未命名的笔记属性"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "callout-manager:Insert Callout": false,
+      "webpage-html-export:导出为HTML": false
+    }
+  },
+  "active": "cb0558f675e921cf",
+  "lastOpenFiles": [
+    "6.ISP：接口隔离原则 (The Interface Segregation Principle).md",
+    "未命名 1.md",
+    "Reading Note/5.LSP里氏替换原则（Liskov Substitution Principle）.md",
+    "Reading Note/4.OCP：开闭原则 (The Open-Closed Principle).md",
+    "Reading Note/3.SRP单一职责原则 (The Single Responsibility Principle).md",
+    "Reading Note/4.2 OCP例子 Financial Report.md",
+    "Reading Note/2.编程范式总览.md",
+    "CleanArchitecture/6.企业级业务规则(Entity) VS 应用级业务规则(Use Case).md",
+    "Reading Note/1.软件设计笔记：清洁架构 vs 普通架构.md",
+    "存储器层次结构（Memory Hierarchy）.md",
+    "Collections Framework.md",
+    "Lecture Note/Week 4 Lecture Note.md",
+    "Lecture Note/Week 2 Lecture Note.md",
+    "Lecture Note/Week 3 Lecture Note.md",
+    "Java/Mockito 核心组件：@ExtendWith 与 @Mock.md",
+    "Java/JUnit 5 测试类与注解.md",
+    "Java/Map中的keySet().md",
+    "INDEX.base",
+    "Java `Assertions` 使用指南.md",
+    "Java/public protected default private.md",
+    "Java/Generic泛型.md",
+    "Java/null.md",
+    "截屏2026-05-19 17.11.23.png",
+    "一些概念/Array和ArrayList的区别.md",
+    "CleanArchitecture/Controller.md",
+    "截屏2026-05-06 10.53.31.png",
+    "Java/为什么private 不能写在方法里.md",
+    "Quiz/WEEK4 JAVA QUIZ.md",
+    "Quiz/WEEK1 JAVA QUIZ.md",
+    "未命名.base",
+    "CleanArchitecture",
+    "未命名.canvas",
+    "未命名 3.base",
+    "未命名 1.base",
+    "未命名 2.base",
+    "Java",
+    "Quiz",
+    "Quiz",
+    "Git"
+  ]
+}

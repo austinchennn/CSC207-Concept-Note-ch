@@ -1,0 +1,20 @@
+views:
+  - type: cards
+    name: CSCNOTEBASE
+    order:
+      - file.name
+      - tags
+    sort:
+      - property: tags
+        direction: ASC
+    rowHeight: tall
+    image: note.cover
+    cardSize: 230
+    markers: number
+    indentProperties: false
+    separator: ｜
+    imageAspectRatio: 0.5
+  - type: cards
+    name: 视图
+    image: note.cover
+    imageAspectRatio: 0.65

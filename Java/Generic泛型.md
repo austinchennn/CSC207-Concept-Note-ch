@@ -1,3 +1,9 @@
+---
+tags:
+  - java
+cover: https://i.ytimg.com/vi/CN27X68YO4I/maxresdefault.jpg
+---
+
 ### I.概述
 
 Generic泛型的本质就是参数化类型

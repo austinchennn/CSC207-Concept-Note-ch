@@ -1,6 +1,9 @@
-在 Java 中，**Array (数组)** 和 **ArrayList (动态数组)** 就像是“基础款”和“豪华升级版”的区别。虽然它们都用来存一串数据，但底层逻辑和灵活性完全不同。
-
-以下是为您整理的对比笔记：
+---
+cover: https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/java-array-vs-arraylist.webp
+tags:
+  - java
+  - array
+---
 
 ---
 

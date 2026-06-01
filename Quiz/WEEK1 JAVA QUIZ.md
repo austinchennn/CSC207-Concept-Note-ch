@@ -1,3 +1,11 @@
+---
+tags:
+  - java
+  - memorymodel
+  - String
+  - forloop
+---
+
 ## 内存
 a = new String("a")和直接 a =  “a”
 在内存里有什么区别
@@ -7,13 +15,13 @@ a = new String("a")和直接 a =  “a”
 
 > [!example]
 > 
-> ```
+> ```java
 String s1 = "abc";
 String s2 = "abc";
 System.out.println(s1 == s2); //  输出 true！说明它们在内存中是同一个对象
 > ```
 > V.S
-> ```
+> ```java
 String s3 = new String("abc");
 String s4 = new String("abc");
 System.out.println(s3 == s4); // ❌ 输出 false！它们在堆中的地址完全不同
@@ -35,12 +43,12 @@ There are mutable class types and immutable class types.</u>
 
 ## 1. 核心概念对比
 
-|**特性**|**String**|**StringBuilder**|
-|---|---|---|
-|**可变性**|❌ **不可变 (Immutable)**|✅ **可变 (Mutable)**|
-|**数据类型**|引用类型 (Reference Type)|引用类型 (Reference Type)|
-|**初始化**|`String s = "abc";` (支持简写)|`StringBuilder sb = new StringBuilder("abc");`|
-|**修改性能**|慢 (每次修改都会创建新对象)|快 (直接在原对象上修改)|
+| **特性**   | **String**                 | **StringBuilder**                              |
+| -------- | -------------------------- | ---------------------------------------------- |
+| **可变性**  | ❌ **不可变 (Immutable)**      | ✅ **可变 (Mutable)**                             |
+| **数据类型** | 引用类型 (Reference Type)      | 引用类型 (Reference Type)                          |
+| **初始化**  | `String s = "abc";` (支持简写) | `StringBuilder sb = new StringBuilder("abc");` |
+| **修改性能** | 慢 (每次修改都会创建新对象)            | 快 (直接在原对象上修改)                                  |
 
 ---
 
@@ -82,7 +90,7 @@ There are mutable class types and immutable class types.</u>
             
         - `s.toLowerCase();` / `s.toUpperCase();` _(等同于 Python 的 `s.lower()` / `s.upper()`)_
             
-    - **分割：** `s.split(",");` _(按逗号分割，返回一个字符串数组 `String[]`，等同于 Python 的 `s.split(",")`)_
+    - **分割：** `s.split(",");` *(按逗号分割，返回一个字符串数组 `String[]`，等同于 Python 的 `s.split(",")`)*
         
 ---
 ## 3. StringBuilder 核心方法
@@ -114,7 +122,7 @@ sb.reverse();            // 反转整个字符串
 - **内容长度：** 可以包含 **0 个**、**1 个**或**多个**字符。
 
 - **示例代码：**
-```
+```java
     String s1 = "Hello";  // 多个字符
     String s2 = "A";      // 哪怕只有一个字符，只要用双引号包着，它也是 String
     String s3 = "";       // 空字符串（包含 0 个字符），完全合法
@@ -130,7 +138,7 @@ sb.reverse();            // 反转整个字符串
 
 Java
 
-```
+```java
     char c1 = 'A';        // 正确：单个字符
     char c2 = '中';       // 正确：Java 支持 Unicode，所以一个中文字符也是合法的 char
     char c3 = '\n';       // 正确：转义字符（如换行符），在底层也算作一个字符
@@ -138,15 +146,15 @@ Java
 ---
 ### ⚠️ 常见的易错点
 1.  **单引号里不能为空：**
-```
+```java
 char c = ''; // ❌ 编译报错！单引号里必须填入确切的一个字符，哪怕是一个空格 ' ' 也行，但不能什么都不写。
 ```
 2.  **单引号里不能有多个字符：**
-```
+```java
 char c = 'AB'; // ❌ 编译报错！有多个字符必须用双引号 String。
 ```
 3.  **类型不能混用（即使看起来内容一样）：**
-```
+```java
     char c = "A"; // ❌ 编译报错！"A" 是 String 对象，不能赋值给基本类型 char。
     String s = 'A'; // ❌ 编译报错！'A' 是 char，不能直接赋值给 String。
 ```
@@ -167,7 +175,7 @@ char c = 'AB'; // ❌ 编译报错！有多个字符必须用双引号 String。
 - **运行逻辑：** Java 会自动把 `char` 转换成文本，然后拼接到 `String` 的后面或前面，最后返回一个**全新的 String**。
     
 - **代码示例：**
-```
+```java
     String s = "Hello";
     char c = '!';
     
@@ -509,7 +517,6 @@ for (i = 0; i < 10;) { // 注意：第二个分号必须保留！
 ```
 
 ---
-
 ## 骚操作与多变量
 
 考官在 Q2 里放了 5 个正确的骚操作，重点考察你的语法边界测试。
